@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkTree Penjualan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border: 4px solid white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .link-card {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        
+        .link-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .product-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            height: 150px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .product-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .product-card:hover .product-img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center">
+    <div class="w-full max-w-md">
+        <!-- Profil Section -->
+        <div class="flex flex-col items-center mb-8">
+            <img src="q1.png" alt="Foto Profil" class="profile-img rounded-full mb-4">
+            <h1 class="text-2xl font-bold text-gray-800 mb-1">AR-RAAZAQ</h1>
+            <p class="text-gray-600 text-center mb-4">BAJU MUSLIM ELEGAN,NYAMAN DAN TERJANGKAU</p>
+        </div>
+        
+        <!-- Link Section -->
+        <div class="space-y-4 mb-8">
+            <a href="https://wa.me/6282219088233?text=Halo,%20saya%20tertarik%20dengan%20produk%20Anda" 
+               class="block bg-green-500 hover:bg-green-600 text-white text-center py-3 px-6 rounded-lg font-medium link-card">
+                📱 Pesan via WhatsApp
+            </a>
+            
+            <a href="https://www.instagram.com/ar_raazaq_/" 
+               class="block bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white text-center py-3 px-6 rounded-lg font-medium link-card">
+                📸 Kunjungi Instagram Kami
+            </a>
+             <a href="https://www.tiktok.com/@arrazaaqmoeslimwear.id?_t=ZS-8yCW61M60EJ&_r=1" 
+               class="block bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white text-center py-3 px-6 rounded-lg font-medium link-card">
+                📸 Kunjungi TikTok kami
+            </a>
+        </div>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Toko Shopee</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #000000;
+            text-align: center;
+            margin-bottom: 24px;
+            font-size: 2rem;
+        }
+
+        .brand-logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .shopee-icon {
+            width: 120px;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .shopee-icon:hover {
+            transform: scale(1.1);
+        }
+
+        .link-card {
+            background: linear-gradient(135deg, #ff5722 0%, #ff7043 100%);
+            padding: 20px;
+            border-radius: 8px;
+            color: white;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(255, 87, 34, 0.2);
+        }
+
+        .link-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .link-description {
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+
+        .link-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: white;
+            color: #000000;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .link-button:hover {
+            background-color: #f5f5f5;
+            transform: scale(1.05);
+        }
+
+        .social-proof {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .proof-item {
+            display: inline-block;
+            margin: 0 15px;
+            text-align: center;
+        }
+
+        .proof-number {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #000000;
+        }
+
+        .proof-label {
+            font-size: 0.9rem;
+        }
+
+        .testimonials {
+            margin-top: 30px;
+        }
+
+        .testimonial-card {
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: #000000;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            .shopee-icon {
+                width: 80px;
+            }
+            
+            .proof-item {
+                margin-bottom: 15px;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Toko Shopee Kami</h1>
+        <div class="link-card">
+            <h2 class="link-title">Kunjungi Toko Shopee Kami</h2>
+            <p class="link-description">Temukan produk-produk terbaik dengan harga spesial hanya di Shopee!</p>
+            <a href="https://shopee.co.id/arrazzaaq_moeslim_wear" target="_blank" rel="noopener noreferrer" class="link-button">Buka Toko</a>
+        </div>
+        
+        
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Tambahkan animasi saat scroll
+            const cards = document.querySelectorAll('.link-card, .testimonial-card');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            cards.forEach(card => {
+                card.style.opacity = 0;
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                observer.observe(card);
+            });
+            
+            // Fungsi untuk menangani klik tombol
+            document.querySelector('.link-button').addEventListener('click', function() {
+                // Tambahkan efek visual saat tombol diklik
+                this.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.1)';
+                setTimeout(() => {
+                    this.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+                }, 200);
+            });
+        });
+    </script>
+        </div>
+        
+       
+        
+        <!-- Footer -->
+        <div class="text-center text-gray-500 text-sm mt-8">
+            © 2025 arrazzaaq_moeslim_wear. All Rights Reserved.
+        </div>
+    </div>
+
+   
+</body>
+</html>
+
